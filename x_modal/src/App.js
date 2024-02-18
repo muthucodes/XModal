@@ -38,7 +38,7 @@ function App() {
               <h2>Fill Details</h2>
               <div className="input-group">
                 <label htmlFor="username">Username: </label>
-                <input type="text" name="username" id="username" required />
+                <input type="text" name="username" id="username" />
               </div>
               <div className="input-group">
                 <label htmlFor="email">Email Address:</label>
@@ -50,7 +50,7 @@ function App() {
               </div>
               <div className="input-group">
                 <label htmlFor="dob">Date of Birth:</label>
-                <input type="date" name="dob" id="dob" required />
+                <input type="date" name="dob" id="dob" />
               </div>
               <button type="submit" className="submit-button">
                 Submit
