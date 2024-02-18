@@ -52,7 +52,9 @@ function App() {
                 <label htmlFor="dob">Date of Birth:</label>
                 <input type="date" name="dob" id="dob" required />
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit" className="submit-button">
+                Submit
+              </button>
             </form>
           </div>
         )}
